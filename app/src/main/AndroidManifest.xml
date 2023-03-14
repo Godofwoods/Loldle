@@ -12,6 +12,9 @@
         android:theme="@style/Theme.Loldle"
         tools:targetApi="31">
         <activity
+            android:name=".ClassicActivity"
+            android:exported="false"/>
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
